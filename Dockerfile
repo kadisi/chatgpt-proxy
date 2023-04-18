@@ -4,6 +4,6 @@ WORKDIR /usr/app
 COPY . .
 RUN npm install
 RUN npm run build
-ENV PORT 3000
+ENV PORT 8000
 EXPOSE $PORT
 CMD npm run start -- -p $PORT
