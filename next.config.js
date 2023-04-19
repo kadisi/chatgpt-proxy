@@ -4,7 +4,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/proxy/:slug*",
+        source: "/openai/proxy/:slug*",
         destination: "https://api.openai.com/:slug*",
       },
       {

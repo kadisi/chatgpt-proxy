@@ -15,7 +15,7 @@
 
 .PHONY: image 
 
-all: image 
+all: push-image 
 
 # Build docker image
 image:
